@@ -6,7 +6,7 @@ function checkValidName(){
     let text = "";
     let x = document.querySelector("#inputIsim").value;
     if(x === '' || x.trim().length === 0){
-        text = "Ad Soyad kısmı boş bırakılamaz";
+        text = "Ad Soyad kısmı boş bırakılamaz.";
         isim = false;
     }
     else
@@ -52,6 +52,23 @@ function checkValidText(){
     document.querySelector(".hataBilgisiMetin").innerHTML = text;
 }
 
+ // Checkbox kontrolü
+
+function checkValidCheckbox(){
+    let text = "";
+    let x = document.querySelector("#inputCheckbox");
+    if(x.checked){
+        checkbox = true;
+        text = "";
+    }
+    else{
+        checkbox = false;
+        text = "Lütfen bilgilerin doğruluğunu onaylayınız."
+    }
+    document.querySelector(".hataBilgisiCheckbox").innerHTML = text;
+
+}
+
 let button = document.getElementById("submitButton");
 
 button.addEventListener('click',function (e)
@@ -59,9 +76,9 @@ button.addEventListener('click',function (e)
     checkValidName();
     checkValidMail();
     checkValidText();
-    if( !(isim && mail && metin) )
-        e.preventDefault();
-    
+    checkValidCheckbox();
+    if( !(isim && mail && metin && checkbox) )
+        e.preventDefault();    
 });
 
 
