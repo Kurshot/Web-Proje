@@ -12,7 +12,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #99B6C6;">
             <div class="container-fluid">
               <a class="navbar-brand" href="../index.html">Anasayfa</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,47 +45,49 @@
 
       <?php
 
-        echo '<table class="table table-striped mt-4">
-        <thead>
-          <tr>
-            <th scope="col"></th>
-            <th scope="col">Bilgiler</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th>Ad Soyad</th>
-            <td>'.$_POST['isim'].'</td>
-          </tr>
-          <tr>
-            <th>Mail Adresi</th>
-            <td>'.$_POST['mail'].'</td>
-          </tr>
-          <tr>
-            <th>Şehir</th>
-            <td>'.$_POST['sehir'].'</td>
-          </tr>
-          <tr>
-            <th>Mesaj Türü</th>
-            <td>'.$_POST['mesajTuru'].'</td>
-          </tr>
-          <tr>
-            <th>Mesaj</th>
-            <td>'.$_POST['mesaj'].'</td>
-          </tr>
-          
-          
-        </tbody>
-      </table>'
+        echo '
+        <div class="table-responsive">
+          <table class="table table-striped mt-4">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Bilgiler</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Ad Soyad</th>
+              <td>'.$_POST['isim'].'</td>
+            </tr>
+            <tr>
+              <th>Mail Adresi</th>
+              <td>'.$_POST['mail'].'</td>
+            </tr>
+            <tr>
+              <th>Şehir</th>
+              <td>'.$_POST['sehir'].'</td>
+            </tr>
+            <tr>
+              <th>Mesaj Türü</th>
+              <td>'.$_POST['mesajTuru'].'</td>
+            </tr>
+            <tr>
+              <th>Mesaj</th>
+              <td>'.$_POST['mesaj'].'</td>
+            </tr>
+            
+            
+          </tbody>
+      </table>
+      </div>
+      
+      '
     
     
     ?>
     </div>
 
     
-    
-    
-
     
 </body>
 </html>
