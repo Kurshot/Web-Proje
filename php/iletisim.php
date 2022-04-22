@@ -24,7 +24,7 @@
                     <a class="nav-link" href="">Şehrim</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="iletisim.html">İletişim</a>
+                    <a class="nav-link" href="../iletisim.html">İletişim</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Hakkında</a>
@@ -38,7 +38,19 @@
           </nav>
     </header>
 
-    <p>HELO</p>
+    <div class="container mt-4" style="text-align: center;">
+      <h1>Mesaj gönderildi</h1>
+
+      <?php
+
+      echo "Ad Soyad: ".$_POST['isim'];
+    
+    
+    ?>
+    </div>
+
+    
+    
     
 
     
