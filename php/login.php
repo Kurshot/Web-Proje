@@ -58,7 +58,7 @@
                       }
                       else{
                         echo '<p class="text-italic" style = "text-align:center">Giriş işlemi başarısız.</p>';
-                        echo '<p class="fw-bold text-center yarrak mb-2">Kullanıcı bilgileri yanlış.</p>';
+                        echo '<p class="fw-bold text-center giris-uyari mb-2">Kullanıcı bilgileri yanlış.</p>';
                       }
                     
                     
