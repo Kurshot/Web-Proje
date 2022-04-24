@@ -18,9 +18,10 @@ h1{
 
 .card{
     box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
-}
-
-.card.h-100{
     background-color: #F0F6FA;
 }
 
+.card-body{
+    box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
+    background-color: #F0F6FA;
+}
