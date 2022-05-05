@@ -6,8 +6,7 @@
  - Özgeçmiş sayfası
  - Şehir sayfası
  - İletişim sayfası
- - Login sayfası
-  
+ - Login sayfası 
 içeren web sitesi.
 
-	Son Hali: http://b211210010.great-site.net
+*Son Hali :* (http://b211210010.great-site.net)
