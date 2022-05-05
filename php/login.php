@@ -28,6 +28,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="../ozgecmis.html">Özgeçmiş</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../mirasimiz.html">Mirasımız</a>
+                  </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">

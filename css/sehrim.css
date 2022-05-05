@@ -3,7 +3,7 @@ body{height:100%;}
 
 body{
     font-weight: 400;
-    background-image: linear-gradient(135deg,#99b6c6 14%,#bcd8e5 78%);
+    background-image: linear-gradient(135deg,#99b6c6 14%,#bcd8e5 78%); 
 }
 
 h1{
@@ -24,4 +24,9 @@ h1{
 .card-body{
     box-shadow: 0 0 5px 0 rgba(22, 22, 26, .25);
     background-color: #F0F6FA;
+}
+
+.havaDurumu{
+    font-weight: bold;
+    font-style: italic;
 }
