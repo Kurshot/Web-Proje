@@ -13,28 +13,28 @@
     <header class="sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #99B6C6">
             <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">Anasayfa</a>
+              <a class="navbar-brand" href="../html/index.html">Anasayfa</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="../sehrim.html">Şehrim</a>
+                    <a class="nav-link" href="../html/sehrim.html">Şehrim</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../iletisim.html">İletişim</a>
+                    <a class="nav-link" href="../html/iletisim.html">İletişim</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../ozgecmis.html">Özgeçmiş</a>
+                    <a class="nav-link" href="../html/ozgecmis.html">Özgeçmiş</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="../mirasimiz.html">Mirasımız</a>
+                    <a class="nav-link" href="../html/mirasimiz.html">Mirasımız</a>
                   </li>
                 </ul>
                 <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                      <a class="nav-link" href="../login.html" data-target="#myModal" data-toggle="modal">Giriş Yap</a>
+                      <a class="nav-link" href="../html/login.html" data-target="#myModal" data-toggle="modal">Giriş Yap</a>
                   </li>
                 </ul>
               </div>
