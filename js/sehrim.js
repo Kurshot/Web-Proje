@@ -23,7 +23,7 @@ const displayResult = (result) => {
     desc.innerHTML = `Hava ${result.weather[0].description}`;
     let iconDiv = document.querySelector('.weather-icon');
     let icon = result.weather[0].icon;
-    iconDiv.innerHTML = `<img src = icons/${icon}.png>`;
+    iconDiv.innerHTML = `<img src = ../icons/${icon}.png>`;
 
 
 }
